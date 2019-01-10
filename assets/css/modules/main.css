@@ -1,0 +1,87 @@
+.sections-left{
+  background-color: var(--dark);
+  background-image: url(../../images/background.png);
+  display: block;
+  box-shadow: 14px 0px 40px -1px var(--dark) !important;
+  z-index: 1;
+  padding-bottom: 2rem;
+  color: var(--white);
+}
+.sections-rigth section,
+.sections-left section{
+  margin-top: 2rem;
+  margin-right: 2rem;
+  margin-left: 2rem;  
+}
+.sections-rigth{
+  background: var(--white);
+  margin-bottom: 2rem;
+}
+.contact-title,
+.skill-title,
+.passion-title{
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.contact-item{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem;
+}
+.contact-info a{
+  color: var(--white);
+}
+.contact-icon{
+  width: 50px;
+}
+
+.education-title,
+.experience-title,
+.about-title{
+  position: relative;
+  background: var(--dark);
+  background-clip: padding-box;
+  border-left: 20rem solid transparent;
+  padding: 1rem;
+  text-align: right;
+  border-radius: .3rem;
+  display: block;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.education-title::before,
+.experience-title::before,
+.about-title::before{
+  content: '';
+  position: absolute;
+  left: -40.5px;
+  top: 0;
+  z-index: 100;
+  border-right: 2.5rem solid var(--dark);
+  border-top: 1.9rem solid transparent;
+  border-bottom: 1.95rem solid transparent;
+  border-radius: 1px;
+}
+
+.education-title img,
+.experience-title img,
+.about-title img{
+  display: inline;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+}
+.about-info{
+  margin-left: 1rem;
+}
+.experience-item,
+.education-item{
+ margin-left: 1rem;
+ margin-bottom: 1rem;
+}
+
+

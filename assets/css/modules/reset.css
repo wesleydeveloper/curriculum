@@ -1,0 +1,30 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: 'Metropolis', sans-serif;
+  color: var(--ligth);
+}
+h1,
+h2,
+h3,
+h4,
+h5{
+  font-family: 'Metropolis', sans-serif;
+  color: var(--white);
+}
+img{
+  display: block;
+  width: 100%;
+}
+ul{
+  list-style: none;
+}
+a{
+  text-decoration: unset;
+  color: var(--ligth);
+}
+strong{
+  color: var(--dark);
+}
