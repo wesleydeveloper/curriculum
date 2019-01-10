@@ -1,3 +1,6 @@
+#app{
+  box-shadow: 5px 5px 1px .1px var(--dark);
+}
 .sections-left{
   background-color: var(--dark);
   background-image: url(../../images/background.png);
@@ -33,10 +36,16 @@
 }
 .shape-title{
   margin-left: 2rem;
+  text-transform: uppercase;
+  font-size: 1rem;
 }
 .shape-icon{
   max-width: 50px;
   margin: .5rem;
+}
+.contact-title{
+  text-align: center;
+  text-transform: uppercase;
 }
 .contact-item{
   display: flex;
@@ -45,7 +54,8 @@
   margin-top: 1rem;
 }
 .contact-icon{
-  max-width: 50px;
+  width: 35px;
+  height: 35px;
 }
 .contact-info a{
   color: var(--white)
@@ -59,4 +69,27 @@
 .education-item,
 .experience-item{
   margin-bottom: 1rem;
+}
+.skills{
+  text-align: center;
+  text-transform: uppercase;
+}
+.skill-level{
+  display: flex;
+  justify-content: space-between;
+  margin-top: .5rem;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.skill-level span{
+  width: 15px;
+  height: 15px;
+  background: var(--white);
+  border-radius: 7.5px;
+}
+.education-title{
+  font-family: 'Metropolis Extra';
+  font-weight: 200;
+  color: var(--ligth);
 }
