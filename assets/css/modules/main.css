@@ -89,6 +89,7 @@
 .skill-level span.active{
   background: var(--white);
 }
+.experience-title,
 .education-title{
   font-family: 'Metropolis Extra';
   font-weight: 200;
