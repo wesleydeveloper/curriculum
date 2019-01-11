@@ -3,9 +3,8 @@
 }
 .sections-left{
   background-color: var(--dark);
-  background-image: url(../../images/background.png);
   display: block;
-  box-shadow: 14px 0px 30px -1px var(--dark) !important;
+  box-shadow: 5px 0px 10px -1px var(--dark) !important;
   z-index: 1;
   padding-bottom: 2rem;
   color: var(--white);
@@ -64,7 +63,6 @@
 .education-list,
 .experience-list{
   grid-area: 2 / 1 / 3 / 3;
-  margin-left: 1rem;
 }
 .education-item,
 .experience-item{
@@ -85,8 +83,11 @@
 .skill-level span{
   width: 15px;
   height: 15px;
+  border-radius: 50%;
+  border: 2px solid var(--white);
+}
+.skill-level span.active{
   background: var(--white);
-  border-radius: 7.5px;
 }
 .education-title{
   font-family: 'Metropolis Extra';

@@ -12,7 +12,7 @@
   background: var(--ligth-dark);
   background-clip: padding-box;
   border-bottom: 3.15rem solid transparent;
-  box-shadow: inset 34px 1px 40px -22px var(--dark) !important;
+  box-shadow: inset 15px 1px 5px -10px var(--dark) !important;
   position: relative;
 }
 .separator{
@@ -25,24 +25,6 @@
   clip-path: polygon(36.41% 0, 100% 0%, 36.41% 100%, 0 100%);
   background: var(--ligth-dark);
 }
-/* .separator::before{
-  content: '';
-  position: absolute;
-  border-left: 370px solid transparent;
-  border-bottom: 3rem solid var(--ligth-dark);
-  border-right: 0.5rem solid var(--ligth-dark);
-  top: -48px;
-  left: 0;
-}
-.separator::after{
-  content: '';
-  position: absolute;
-  border-right: 630px solid transparent;
-  border-top: 3rem solid var(--ligth-dark);
-  border-left: .5rem solid var(--ligth-dark);
-  top: -48px;
-  right: 0;
-} */
 .info-container{
   margin-left: 2rem;
   margin-top: 2rem;
